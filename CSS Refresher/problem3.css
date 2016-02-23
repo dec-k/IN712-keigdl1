@@ -1,0 +1,20 @@
+ul{
+  list-style: none;
+  width:15%;
+}
+
+li{
+  padding:5px;
+  border-top: 2px solid #90bf09;
+  background-color: #207068;
+}
+
+ul a{
+  text-decoration: none;
+  font-family: arial;
+  color:white;
+}
+
+li:hover{
+  background-color: #90bf09;
+}

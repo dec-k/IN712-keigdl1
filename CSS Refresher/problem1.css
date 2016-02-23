@@ -1,0 +1,59 @@
+#divOne{
+				width: 250px;
+				height: auto;
+				text-align: center;
+				padding: 10px;
+				border-radius: 10px;
+				border: 1px solid black;
+				margin:5px;
+				box-shadow: 5px 5px 3px #333;
+				background-color: orange;
+}
+
+#divTwo{
+				width: 250px;
+				height: auto;
+				text-align: center;
+				padding: 10px;
+				border-radius: 10px;
+				border: 1px solid black;
+				margin:5px;
+				box-shadow: 5px 5px 3px #333;
+				background-color: pink;
+}
+
+#divThree{
+				width: 250px;
+				height: auto;
+				text-align: center;
+				padding: 10px;
+				border-radius: 10px;
+				border: 1px solid black;
+				margin:5px;
+				box-shadow: 5px 5px 3px #333;
+				background-color: lightblue;
+}
+
+#divFour{
+				width: 250px;
+				height: auto;
+				text-align: center;
+				padding: 10px;
+				border-radius: 10px;
+				border: 1px solid black;
+				margin:5px;
+				box-shadow: 5px 5px 3px #333;
+				background-color: lightgreen;
+}
+
+#divFive{
+				width: 250px;
+				height: auto;
+				text-align: center;
+				padding: 10px;
+				border-radius: 10px;
+				border: 1px solid black;
+				margin:5px;
+				box-shadow: 5px 5px 3px #333;
+				background-color: teal;
+}

@@ -1,0 +1,24 @@
+ul{
+  list-style: none;
+  list-style-type: none;
+  width: 15%;
+}
+
+a{
+  text-decoration: none;
+  font-family: arial;
+  color:black;
+  float:left;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid crimson;
+}
+
+a:hover{
+  background-color: orange;
+}
+
+ .prev, .next{
+  border: none;
+  background-color:none;
+}
