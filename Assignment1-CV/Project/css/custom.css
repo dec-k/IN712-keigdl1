@@ -1,0 +1,28 @@
+/*Globally change the body font*/
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+/*Border the containing div*/
+.bordered{
+  border:1px solid black;
+  margin-left: -1px;
+  margin-bottom: -1px;
+}
+
+/*Remove gutters on nested divs*/
+.noGutter{
+  padding:0px;
+}
+
+/*Fill to match left-div height*/
+.match-par-height{
+  height:50%;
+}
+
+/*Hidden elements on small screen*/
+@media screen and (max-width:400px){
+  .hide-on-mob{
+    display:none;
+  }
+}
