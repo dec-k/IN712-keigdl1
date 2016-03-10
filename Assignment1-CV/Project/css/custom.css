@@ -6,12 +6,7 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
-/*Title Div Formatter*/
-.header{
-  text-align: right;
-  background-image: url('res/spacePanel.jpg');
-  background-size: contain;
-}
+/*Title Area Formatter*/
 .img {
   margin-right: -15px;
   margin-left: -15px;
@@ -26,13 +21,12 @@ body{
   line-height: 20%;
 }
 
-/*Border the containing div*/
-/*
-.bordered{
-  border:1px solid black;
-  margin-left: -1px;
-  margin-bottom: -1px;
-}*/
+.pullRight{
+  text-align: right;
+}
+.pullLeft{
+  text-align: left;
+}
 
 /*Remove gutters on nested divs*/
 .noGutter{
