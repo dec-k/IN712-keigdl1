@@ -1,6 +1,6 @@
 /*Global changes*/
 .container{
-  background-color:#e1e1e1;
+  background-color:#FFF;
 }
 body{
   font-family: 'Montserrat', sans-serif;
@@ -9,7 +9,17 @@ body{
 /*Title Div Formatter*/
 .header{
   text-align: right;
-  background-color:orange;
+  background-image: url('res/spacePanel.jpg');
+  background-size: contain;
+}
+.img {
+  margin-right: -15px;
+  margin-left: -15px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 90px;
+  margin-top:20px;
 }
 .header h3{
   font-family: 'Lora', sans-serif;
