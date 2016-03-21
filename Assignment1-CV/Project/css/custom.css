@@ -33,10 +33,15 @@ body{
   padding:0px;
 }
 
-/*Fill to match left-div height*/
-.match-par-height{
-  height:50%;
+/*Work experience code formatting*/
+.work-ex h6{
+  font-family: 'Lora', sans-serif;
+  line-height: 20%;
+  font-size:14px;
+  color:#999999;
 }
+
+
 
 /*Alter elements on small screen*/
 @media screen and (max-width:400px){
