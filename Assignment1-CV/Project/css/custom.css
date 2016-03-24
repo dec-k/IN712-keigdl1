@@ -1,7 +1,9 @@
-/*Global changes*/
-.container{
-  background-color:#FFF;
+/*Global bg-colour overwrite*/
+body,html,.container{
+  background:#FFF;
 }
+
+/*font changer*/
 body{
   font-family: 'Montserrat', sans-serif;
 }
@@ -15,6 +17,8 @@ body{
   background-size: cover;
   padding-bottom: 90px;
   margin-top:20px;
+    transition: transform 0.26s ease;
+    transform-origin: top;
 }
 .header h3{
   font-family: 'Lora', sans-serif;
@@ -33,8 +37,8 @@ body{
   padding:0px;
 }
 
-/*Work experience code formatting*/
-.work-ex h6{
+/*Subtitle font formatting*/
+.sub-fancy h6{
   font-family: 'Lora', sans-serif;
   line-height: 20%;
   font-size:14px;
@@ -63,4 +67,11 @@ body{
     .container{
         max-width: 970px;
     }
+}
+
+/*Interactivity through css*/
+.img:hover{
+  transform: scaleY(10);
+  transform-origin: top;
+    transition: transform 0.26s ease;
 }
