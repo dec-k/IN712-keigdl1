@@ -76,7 +76,7 @@ body{
 
 /*Interactivity through css*/
 .img:hover{
-  transform: skewY(50deg);
+  transform: skewY(15deg);
   transform-origin: top;
   transition: transform 5s ease;
 }
