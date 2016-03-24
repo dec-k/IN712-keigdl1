@@ -19,6 +19,11 @@ body{
   margin-top:20px;
   transition: transform 0.26s ease;
   transform-origin: top;
+
+  /*literally here just so i can hide the emote*/
+  z-index: 1;
+  position: relative;
+  top: -15px;
 }
 .header h3{
   font-family: 'Lora', sans-serif;
@@ -71,9 +76,9 @@ body{
 
 /*Interactivity through css*/
 .img:hover{
-  transform: scaleY(10);
+  transform: skewY(50deg);
   transform-origin: top;
-  transition: transform 0.26s ease;
+  transition: transform 5s ease;
 }
 
 /*Animation Setup*/
@@ -84,6 +89,16 @@ body{
   to{
     opacity: 1;
   }
+}
+
+#hideFace{
+  position:relative;;
+  bottom: -70px;
+  z-index: 0;
+}
+
+#hideFace:hover{
+  animation: fadein 1.5s;
 }
 
 /*fader id's*/
