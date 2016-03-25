@@ -39,7 +39,7 @@ body{
 
 /*Remove gutters on nested divs*/
 .noGutter{
-  padding:0px;
+  padding:10px;
 }
 
 /*Subtitle font formatting*/
@@ -59,11 +59,16 @@ body{
   }
   /*Align header left on mobile, easier to read.*/
   .header{
-    text-align: left;
+
   }
   /*Adjust padding globally*/
-  .container{
+  .pullRight,{
     margin:10px;
+    text-align: left;
+  }
+
+  .header h3{
+    line-height: 100%;
   }
 }
 
@@ -95,10 +100,6 @@ body{
   position:relative;;
   bottom: -70px;
   z-index: 0;
-}
-
-#hideFace:hover{
-  animation: fadein 1.5s;
 }
 
 /*fader id's*/
