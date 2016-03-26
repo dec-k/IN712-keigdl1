@@ -26,18 +26,6 @@ h2{
   text-align: center;
 }
 
-.pullRight{
-  text-align: right;
-}
-.pullLeft{
-  text-align: left;
-}
-
-/*Remove gutters on nested divs*/
-.noGutter{
-  padding:10px;
-}
-
 /*Subtitle font formatting*/
 h5{
   font-family: 'Lora', sans-serif;
@@ -48,21 +36,8 @@ h5{
 
 /*Alter elements on small screen*/
 @media screen and (max-width:400px){
-  .hide-on-mob{
+  #hideMobImg{
     display:none;
-  }
-  /*Align header left on mobile, easier to read.*/
-  .header{
-
-  }
-  /*Adjust padding globally*/
-  .pullRight,{
-    margin:10px;
-    text-align: left;
-  }
-
-  .header h3{
-    line-height: 100%;
   }
 }
 
