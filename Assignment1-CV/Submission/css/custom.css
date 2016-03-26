@@ -10,11 +10,14 @@ body{
 
 /*Title Area Formatter*/
 img {
-  height:200px;
-  width:200px;
+  height:100%;
+  width:100%;
+  max-width: 350px;
+  max-height: 350px;
   border-radius: 3px;
   transition: transform 2s ease;
 }
+
 h2{
   font-family: 'Lora', sans-serif;
   line-height: 100%;
@@ -35,7 +38,7 @@ h5{
 }
 
 /*Alter elements on small screen*/
-@media screen and (max-width:400px){
+@media screen and (max-width:420px){
   #hideMobImg{
     display:none;
   }
@@ -77,8 +80,4 @@ img:hover{
 
 #fade2{
   animation: fadein 3s;
-}
-
-#fade3{
-  animation: fadein 4.5s;
 }
