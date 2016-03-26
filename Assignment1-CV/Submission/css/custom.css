@@ -1,0 +1,109 @@
+/*Global bg-colour overwrite*/
+body,html,.container{
+  background:#FFF;
+}
+
+/*font changer*/
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*Title Area Formatter*/
+img {
+  height:200px;
+  width:200px;
+  border-radius: 3px;
+  transition: transform 2s ease;
+}
+h2{
+  font-family: 'Lora', sans-serif;
+  line-height: 100%;
+  font-size: 25px;
+  color: #9b9b9b;
+}
+
+.centered{
+  text-align: center;
+}
+
+.pullRight{
+  text-align: right;
+}
+.pullLeft{
+  text-align: left;
+}
+
+/*Remove gutters on nested divs*/
+.noGutter{
+  padding:10px;
+}
+
+/*Subtitle font formatting*/
+h5{
+  font-family: 'Lora', sans-serif;
+  line-height: 100%;
+  font-size:14px;
+  color:#999999;
+}
+
+/*Alter elements on small screen*/
+@media screen and (max-width:400px){
+  .hide-on-mob{
+    display:none;
+  }
+  /*Align header left on mobile, easier to read.*/
+  .header{
+
+  }
+  /*Adjust padding globally*/
+  .pullRight,{
+    margin:10px;
+    text-align: left;
+  }
+
+  .header h3{
+    line-height: 100%;
+  }
+}
+
+/*Trim the default 1170px cont back to a 970px container*/
+@media (min-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+}
+
+/*Interactivity through css*/
+img:hover{
+  transform: rotate(720deg);
+  transition: transform 5s ease;
+}
+
+/*Animation Setup*/
+@keyframes fadein{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+#hideFace{
+  position:relative;;
+  bottom: -70px;
+  z-index: 0;
+}
+
+/*fader id's*/
+#fade1{
+  animation: fadein 1.5s;
+}
+
+#fade2{
+  animation: fadein 3s;
+}
+
+#fade3{
+  animation: fadein 4.5s;
+}
